@@ -5,7 +5,7 @@ import tailwindcss from "tailwindcss"
 
 export default defineConfig({
   // GitHub Pages用のbase path設定
-  base: process.env.NODE_ENV === 'production' ? '/learning-playcanvas-blocks/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/playcanvas-sogs-viewer/' : '/',
   plugins: [react()],
   css: {
     postcss: {
